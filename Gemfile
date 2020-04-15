@@ -55,6 +55,7 @@ end
 # duytu
 group :production do
   gem 'pg', '~> 1.2', '>= 1.2.3'
+  gem 'rails_12factor'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
