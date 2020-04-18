@@ -10,12 +10,78 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
- *= require_self
  */
 
- #logo img {
- 	background-color: #000;
- }
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import 'normalize';
 
- @import 'normalize';
+a {
+    color: #292827;
+}
+body {
+    background-color: #ececec;
+}
+#logo img {
+	background-color: #000;
+}
+#sidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
+div#sidebar li a {
+    line-height: 30px;
+    color: #292827;
+}
+div#sidebar > * {
+    text-align: right;
+    padding-right: 35px;
+}
+div#logo {
+    margin: 60px 0;
+}
+.main-right {
+    border-left: 1px solid #929292;
+    min-height: 1000px;
+    background: #ffffff;
+}
+.main-right > * {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.alert.main-right {
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 0;
+    margin: 0;
+    border: 0;
+    border-left: 1px solid #929292;
+    border-radius: 0;
+}
+div#main_content {
+    border-bottom: 1px solid #929292;
+    min-height: 0;
+    background: #ececec;
+}
+div#header > .buttons, div#header > p, div#header > a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div#header > p, div#header > a {
+    float: left;
+}
+div#header > a{
+	color: #292827;
+}
+div#header > .buttons {
+    float: right;
+}
+div#sidebar li.category {
+    color: #337ab7;
+    font-size: 18px;
+}
+#main_content .buttons a.navbar-link {
+    border: 1px solid #999;
+    padding: 4px 20px;
+    border-radius: 50px;
+}
