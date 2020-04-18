@@ -44,6 +44,7 @@ div#logo {
     border-left: 1px solid #929292;
     min-height: 1000px;
     background: #ffffff;
+    padding-top: 10px;
 }
 .main-right > * {
     padding-left: 35px;
@@ -62,6 +63,7 @@ div#main_content {
     border-bottom: 1px solid #929292;
     min-height: 0;
     background: #ececec;
+    padding-top: 0;
 }
 div#header > .buttons, div#header > p, div#header > a {
     margin-top: 10px;
